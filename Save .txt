@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title> Add a css file</title>
+<link type="text/css" rel="stylesheet" href="Rule.css">
+<style>
+    #One p {
+        color: black ;
+    }
+
+    #two p {
+        color: #000;
+    }
+
+    #three p {
+        color: #000;
+    }
+
+    #four p {
+        color: #000;
+    }
+</style>
+<body>
+    <img src="Pic\Grian_1.png" style="float: right; margin: 1em;">
+    <h1>This is  <span style="color: blueviolet;"> Grian </span> </h1>
+    <Ul>
+        <li>
+            <p>
+                He is a minecraft player 
+            </p>
+        </li>
+        <li>
+            <p>
+                He play in Hermitcraft sever
+            </p>
+        </li>
+    
+        <li>
+            <p>
+                This is his youtube channel
+            </p>
+            <div id="One">
+                <ul >
+                    <li>
+                        <p >
+                            Check out now <a href="https://www.youtube.com/@Grian"> Grian </a>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </Ul>
+</body>
+</html>

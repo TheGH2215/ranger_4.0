@@ -1,8 +1,71 @@
 body{
     font-family: Arial, sans-serif;
-    font-size: 14;
+    font-size: x-large;
 }
 
 p{
-    color: #35d426;
+    color: #0a0a0a;
 }
+
+#one  {
+    color: black ;
+    border-color:blue;
+    border-style:solid ;
+    padding: 10px;
+    width: 25%;
+    position: fixed;
+    bottom: 0.25em;
+    right: 1em;
+}
+
+#two  {
+    color: #000;
+    border-color:green;
+    border-style:solid ;
+    padding: 10px;
+    width: 25%;
+    position: fixed;
+    top: 0.25em;
+    right: 1em;
+}
+
+#three {
+    color: #000;
+    border-color:orange;
+    border-style:solid ;
+    padding: 10px;
+    width: 25%;
+    position: fixed;
+    top: 0.25em;
+    left: 1em;
+}
+
+#four  {
+    color:  #000;
+    border-color:yellow;
+    border-style:solid ;
+    padding: 10px;
+    width: 25%;
+    position: fixed;
+    bottom: 0.25em;
+    left: 1em;
+}
+
+#main {
+    background-color: blue;
+    width:max-content;
+    margin: 0 auto;
+    
+}
+
+#main a{
+    text-decoration: none;
+    color: #ffffff; 
+}
+
+#frame {
+    width: max-content;
+    height: 500;
+    align-self: center;
+}
+
